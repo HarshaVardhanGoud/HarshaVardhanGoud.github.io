@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lan="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-score=1.0">
+        <title>Harsha Vardhan -Aspiring Software Engineer</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/45ab6a358f.js" crossorigin="anonymous"></script> 
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/logo.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Certificates</a></li>
+                        <li><a href="#portpolio">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-sharp fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul> 
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i> 
+                </nav>
+                <div class="header-text">
+                    <h1>Hi, I'm Harsha <span>Vardhan</span> <br>a Computer Science Graduate Student</h1>
+                </div>
+                
+            </div>
+            <div class="downloadcv">
+                <a href ="Harsha.pdf" color:white>Download CV</a>
+            </div>
+        </div>
+        
+<!----------about-->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images//user.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p><b>I hold a Master's degree in Computer Science from Binghamton University, SUNY, with expertise in Java, Python, 
+                            JavaScript, HTML, CSS, and SQL. At Wipro Technologies, I optimized database queries, achieving a 15% performance boost. 
+                            As a Teaching Assistant, I guided students in the Computer Networks course and contributed to diverse projects, including 
+                            a Social Media Data Science Pipeline and a web proxy server. Certified in JPMC Software Engineering, ServiceNow Development, 
+                            Data Science, and Machine Learning, I bring a versatile skill set to tackle dynamic challenges in the field of computer science.</b></p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="Skills">
+                            <ul>
+                            <li><span>Programming Languages</span><br> Python, Java, C Language, JavaScript, HTML, CSS, SQL</li>
+                            <li><span>Frameworks</span><br> Flask, React.js, Bootstrap, jQuery, Node.js</li>
+                            <li><span>Database Technologies</span><br> Oracle DB, MongoDB, MySQL</li>
+                            <li><span>Tools and Libraries</span><br>Excel, Pandas, NumPy, Matplotlib, Git, Power BI, AWS, Linux/Unix, Microsoft Office Suite, Google Workspace</li>
+                            <li><span>Courses/Concepts</span><br> Unit Testing, Design Patterns, Algorithms, Data Structures, Computer Architecture and Organization, Computer Networks, API’s, REST, Agile, Operating Systems</li>    
+                        </ul>
+                        </div>
+                        <div class="tab-contents" id="Experience">
+                            <ul>
+                            <li><span>Teaching Assistant, Binghamton University</span><br>● Assisted in the instruction and mentoring of students enrolled in Computer Networks course, offering guidance and
+                                support in implementing course projects.<br>
+                                ● Conducted regular office hours, providing individualized assistance to students to help them troubleshoot technical
+                                issues and resolve challenges in their project work.<br>
+                                ● Facilitated weekly team meetings, where I led discussions to clarify concepts, address questions, and foster
+                                collaboration among students working on course projects.</li>
+                            <li><span>Software Engineer, Wipro Technologies</span><br>● Delivered operational support, production assistance, testing, and documented Standard Operating Procedures (SOPs)
+                                for complex systems.<br>
+                                ● Developed and reported metrics associated with system performance and project execution to stakeholders.<br>
+                                ● Provided exceptional customer support, resolving 98% of user-reported issues within 24 hours.<br>
+                                ● Achieved a 15% improvement in database query performance through query tuning and indexing strategies.<br>
+                                ● Utilized incident management tools like ServiceNow to address customer issues by writing SQL queries and
+                                resolving incidents reported by them.<br>
+                                ● Maintained comprehensive technical documentation, resulting in a 30% reduction in onboarding time for new team
+                                members.<br>
+                                ● Communicated with technical and non-technical stakeholders, worked in fast-paced, dynamic environment, and
+                                adapted to changing priorities and requirements.</li>
+                            
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Education">
+                            <ul>
+                            <li><span>Master of Science in Computer Science</span><br> Binghamton University, SUNY, Thomas J. Watson College of Engineering and Applied Sciences</li>
+                            <li><span>Bachelor of Technology in Information Technology</span><br> CVR College of Engineering, JNTUH</li>
+                            </ul>
+                        </div>
+                    </div>   
+                </div>
+            </div>
+        </div>
+<!----------Services-->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Certificates</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-brands fa-kaggle"></i>
+                        <h2>Intro to Machine Learning</h2>
+                        <p>The Kaggle "Intro to Machine Learning" certificate validates proficiency in foundational concepts and techniques of machine learning through hands-on projects and real-world datasets.</p>
+                        <a href="https://github.com/HarshaVardhanGoud/Certifications/blob/main/Harsha%20Vardhan%20Goud%20-%20Intro%20to%20Machine%20Learning.png">learn More</a>
+
+                    </div>
+                    
+                    <div>
+                        <i class="fa-brands fa-aws"></i>
+                        <h2>AWS Professional Certificate</h2>
+                        <p>Coursera's AWS Professional Certificate offers in-depth training on Amazon Web Services, focusing on essential cloud architecture and development skills.</p>
+                        <a href="https://github.com/HarshaVardhanGoud/Certifications/blob/main/AWS%20Solutions%20Architect.pdf">learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>ServiceNow Application Developer Certificate </h2>
+                        <p>The ServiceNow Application Developer certification signifies expertise in designing and building applications on the ServiceNow platform.</p>
+                        <a href="https://github.com/HarshaVardhanGoud/Certifications/blob/main/ServiceNowCAD.pdf">learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="" class="btn">More</a>
+    </div>
+        </div>
+<!-- ---------portpolio-------- -->
+       <div id = "portpolio">
+        <div class = "container">
+            <h1 class = "sub-title">My Projects</h1>
+            <div class = "work-list">
+                <div class = "work">
+                    <img src="images/SMDS.png">
+                    <div class="layer">
+                        <h3>SocialMedia DataScience Pipeline Analysis on Covid-19</h3>
+                        <p>Leveraged APIs for real-time data collection and engineered a comprehensive analysis system for Twitter, Reddit, and 4chan using Python. Integrated sentiment analysis with Matplotlib and Seaborn and designed an intuitive data visualization dashboard with Python and Flask for data-driven insights.</p>
+                        <a href="https://github.com/HarshaVardhanGoud/SocialMedia-DataScience-Pipeline-Analysis"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class = "work">
+                    <img src="images/Movie.png">
+                    <div class="layer">
+                        <h3>Movie Recommendation System with Streamlit web app</h3>
+                        <p>Developed a movie recommendation system using Python libraries Pandas, NumPy, and Scikit-learn. Calculated cosine similarity between movies based on user and movie ratings.</p>
+                        <a href="https://github.com/HarshaVardhanGoud/Movie-Recommendation-System-with-Streamlit-Web-App"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class = "work">
+                    <img src="images/Aps.png">
+                    <div class="layer">
+                        <h3>Apex Pipeline Simulators Computer Architecture and Organization</h3>
+                        <p>Designed and implemented two crucial simulators Firstly, a cycle- by-cycle simulator tailored for an in-order APEX pipeline with 5 stages and data forwarding mechanism. Secondly, an out-of-order preprocessor simulator for an APEX-like ISA, featuring an issue queue, load-store queue, reorder buffer, and efficient register renaming, all meticulously crafted using the C language.</p>
+                        <a href="https://github.com/HarshaVardhanGoud/APEX_PIPELINE_SIMULATION_CAO"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/HarshaVardhanGoud?tab=repositories" class="btn">More Projects</a>
+        </div>
+       </div>
+<!--------Contact-->
+<div id="contact">
+    <div id="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 calss="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>harshavardhangoud88@gmail.com</p>
+                <p><i class="fas fa-phone"></i>6073528204</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href=""><i class="fa-brands fa-github"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a  download="images/my-cv.pdf" href="images/my-cv.pdf" target="_blank" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name ="Name" placeholder="Your Name" required>
+                    <input type="email" name ="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div> 
+    
+
+</div>
+
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+
+            }
+        </script>
+        <script>
+            var sidemenu =document.getElementById("sidemenu")
+            function openmenu(){
+                sidemenu.style.right ="0"
+            }
+            function closemenu(){
+                sidemenu.style.right ="-150px"
+            }
+        </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwaIFfEBa95ca-jWVevEBJ4C_0NV-ZHxNM57YUbTwhnwPZHY_tQ0D6JXR9EzcGYZTPluA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+    </body>
+    </html>
