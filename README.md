@@ -1,12 +1,7 @@
 # Personal Portfolio ⚡️ 
-> A clean, beautiful, responsive portfolio template for Software Developers!
+> A clean, beautiful, responsive portfolio template.
 
 > (https://github.com/HarshaVardhanGoud/HarshaVardhanGoud.github.io)
-
-![GitHub stars](https://img.shields.io/github/stars/varadbhogayata/HarshaVardhanGoud.github.io) 
-![GitHub forks](https://img.shields.io/github/forks/varadbhogayata/HarshaVardhanGoud.github.io)
-
-[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
 ### Website Preview
 <p align="center"> 
