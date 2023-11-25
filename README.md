@@ -1,7 +1,7 @@
 # Personal Portfolio ⚡️ 
 > A clean, beautiful, responsive portfolio template.
 
-> (https://github.com/HarshaVardhanGoud/HarshaVardhanGoud.github.io)
+> (https://HarshaVardhanGoud.github.io)
 
 ### Website Preview
 <p align="center"> 
